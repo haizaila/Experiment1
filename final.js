@@ -31,7 +31,8 @@ function draw() {
         rotateZ(frameCount * micLevel/100);
         rotateX(frameCount * micLevel/100);
         rotateY(frameCount * micLevel/100);
-        //line(mouseX,mouseY, 1,1);
+        
+      
         cone(mouseX/100, mouseY/(micLevel*100));
       }else{
           stroke(c1, c2, mouseX/100);
